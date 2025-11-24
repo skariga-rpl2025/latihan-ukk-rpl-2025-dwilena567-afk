@@ -1,10 +1,10 @@
-
-import java.util.Scanner;
-
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
+package Latihan2;
+
+import java.util.Scanner;
 
 /**
  *
@@ -36,12 +36,7 @@ public class ProgramVotingKetuaOSIS {
                 System.out.println("Input tidak valid! Masukkan hanya A, B, atau selesai.\n");
             }
         }
-
-        System.out.println("\n--------------------------------");
-        System.out.println("HASIL HITUNG CEPAT:");
-        System.out.println("Total Suara Kandidat A: " + suaraA);
-        System.out.println("Total Suara Kandidat B: " + suaraB);
-
-        input.close();
     }
 }
+    
+
